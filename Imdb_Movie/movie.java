@@ -1,5 +1,5 @@
-/***Author A
- * 
+/***
+ * @author 
  * Anchal Katyal
  * 
  * 
@@ -9,6 +9,8 @@
  * This is a map reduce code which reads data from a location specified during runtime, the mapper reads the data from ratings.dat file
  * to read the userID of the users who have rated the movies and then passes  it to the reducer, the reducer maintains a count and if the count is 
  * greater than 40 i.e. if the user has rated more than 40 movies, the reducers writes the data to the HDFS.
+ * 
+ * 
  */
 
 

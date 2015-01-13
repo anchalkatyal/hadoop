@@ -1,3 +1,17 @@
+/***
+ * @author 
+ * Anchal Katyal
+ * 
+ * 
+ * Decsription:
+ * The code reads data from IMDB file and finds the genres of the movies.
+ * 
+ * 
+ */
+
+
+
+
 package movie1;
 
 

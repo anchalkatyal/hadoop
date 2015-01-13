@@ -1,3 +1,21 @@
+/***
+ * @author 
+ * Anchal Katyal
+ * 
+ * 
+ * Decsription:
+ * The code reads data from IMDB file and finds the top 10 average ages of the user in a particular zipcode.
+ * 
+ * 
+ * Mapper takes users.dat file input, extracts zipcode and user's age from it and sends it to reducer.
+ * Reducer finds average of user ages having the same zipcode. Zipcode is the key. 
+ * It writes the zipcode and its corresponding average age to the HDFS.
+ * 
+ * Mapper2 takes reducer's output from the HDFS and calls the comparable class to find the youngest users and
+ * then stores the youngest average age in string array and also stores the zipcode in a array.
+ */
+
+
 package movie2;
 
 
